@@ -49,7 +49,7 @@ export default function AddPage() {
                      </button>
                      <div className="rating">{imdbRating.length > 0 ? imdbRating : 0}</div>
                   </div>
-                  <img src={poster.length > 0 ? poster : 'http://placehold.it/400x350'} alt="Poster" className="addfilm-img" />
+                  <img src={poster.length > 0 ? poster : 'http://dummyimage.com/450x300'} alt="Poster" className="addfilm-img" />
                   <div className="block-description">
                      <h5 className="titleFilm__link">{title}</h5>
                      <ul className="film-description-list">
